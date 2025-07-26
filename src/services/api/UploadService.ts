@@ -17,6 +17,7 @@ export interface UploadResponse {
 export class UploadService {
   private baseUrl: string;
 
+  // 这里是自己设置远端服务器API，主要实现了从音频到情绪分析、最后到图生成的过程
   constructor(baseUrl: string = 'https://70aaec12129a6ec9-5000.us-ca-3.gpu-instance.ppinfra.com') {
     this.baseUrl = baseUrl;
   }
