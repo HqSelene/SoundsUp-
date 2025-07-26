@@ -17,7 +17,7 @@ export interface UploadResponse {
 export class UploadService {
   private baseUrl: string;
 
-  constructor(baseUrl: string = 'http://192.168.27.188:5000') {
+  constructor(baseUrl: string = 'https://70aaec12129a6ec9-5000.us-ca-3.gpu-instance.ppinfra.com') {
     this.baseUrl = baseUrl;
   }
 

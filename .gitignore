@@ -52,3 +52,4 @@ tickets/
 .env.local
 .env.development
 .env.production
+*mp4
